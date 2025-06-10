@@ -1,14 +1,15 @@
 {
   "definitions": [
     {
-      "title": "Button",
-      "id": "form-button",
+      "title": "Submit",
+      "id": "form-submit-button",
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "core/fd/components/form/button/v1/button",
+            "resourceType": "core/fd/components/form/actions/submit/v1/submit",
             "template": {
-              "jcr:title": "Button",
+              "jcr:title": "Submit",
+              "buttonType": "submit",
               "fieldType": "button"
             }
           }
@@ -18,7 +19,7 @@
   ],
   "models": [
     {
-      "id": "form-button",
+      "id": "form-submit-button",
       "fields": [
         {
           "component": "container",
